@@ -5,9 +5,9 @@ import openai
 
 
 #Bot Api Token
-API_TOKEN = ''
+API_TOKEN = 'TALEGRAM_BOT_TOKEN'
 #Openai Api Key
-openai.api_key=""
+openai.api_key="CHAT_GPT_API"
 
 
 bot = telebot.TeleBot(API_TOKEN)
